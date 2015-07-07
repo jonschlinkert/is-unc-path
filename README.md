@@ -1,4 +1,4 @@
-# is-unc-path [![NPM version](https://badge.fury.io/js/is-unc-path.svg)](http://badge.fury.io/js/is-unc-path)
+# is-unc-path [![NPM version](https://badge.fury.io/js/is-unc-path.svg)](http://badge.fury.io/js/is-unc-path)  [![Build Status](https://travis-ci.org/jonschlinkert/is-unc-path.svg)](https://travis-ci.org/jonschlinkert/is-unc-path)
 
 > Returns true if a filepath is a windows UNC file path.
 
@@ -65,7 +65,7 @@ var myRegex = new RegExp(isUncPath.source + 'foo');
 * [dirname-regex](https://github.com/regexps/dirname-regex): Regular expression for matching the directory part of a file path.
 * [is-glob](https://github.com/jonschlinkert/is-glob): Returns `true` if the given string looks like a glob pattern.
 * [path-regex](https://github.com/regexps/path-regex): Regular expression for matching the parts of a file path.
-* [unc-path-regex](https://github.com/jonschlinkert/unc-path-regex): Returns true if a filepath is a windows UNC file path.
+* [unc-path-regex](https://github.com/jonschlinkert/unc-path-regex): Regular expression for testing if a file path is a windows UNC file path. Can… [more](https://github.com/jonschlinkert/unc-path-regex)
 
 ## Running tests
 

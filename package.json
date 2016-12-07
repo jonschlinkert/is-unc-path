@@ -19,6 +19,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "dependencies": {
+    "unc-path-regex": "^0.1.0"
+  },
   "devDependencies": {
     "mocha": "*"
   },
@@ -27,6 +30,7 @@
     "expression",
     "file",
     "filepath",
+    "is",
     "match",
     "matching",
     "path",
@@ -37,19 +41,16 @@
     "win",
     "windows"
   ],
-  "dependencies": {
-    "unc-path-regex": "^0.1.0"
-  },
   "verb": {
     "related": {
       "list": [
-        "dotfile-regex",
-        "is-unc-path",
-        "unc-path-regex",
-        "dotdir-regex",
-        "path-regex",
         "dirname-regex",
-        "is-glob"
+        "dotdir-regex",
+        "dotfile-regex",
+        "is-glob",
+        "is-unc-path",
+        "path-regex",
+        "unc-path-regex"
       ]
     }
   }

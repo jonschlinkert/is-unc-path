@@ -1,7 +1,7 @@
 {
   "name": "is-unc-path",
   "description": "Returns true if a filepath is a windows UNC file path.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/is-unc-path",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/is-unc-path",

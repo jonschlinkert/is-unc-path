@@ -1,11 +1,11 @@
 'use strict';
 
-/* deps:mocha */
+require('mocha');
 var assert = require('assert');
 var unc = require('./');
 
-describe('is-unc-path', function () {
-  it('should return true for UNC paths', function () {
+describe('is-unc-path', function() {
+  it('should return true for UNC paths', function() {
     assert.equal(unc('\\/foo/bar'), true);
     assert.equal(unc('\\\\foo/bar'), true);
     assert.equal(unc('\\\\foo\\admin$'), true);
@@ -15,7 +15,7 @@ describe('is-unc-path', function () {
     assert.equal(unc('\\\\\\/foo/bar'), true);
   });
 
-  it('should return false for non-UNC paths', function () {
+  it('should return false for non-UNC paths', function() {
     assert.equal(unc('/foo/bar'), false);
     assert.equal(unc('/'), false);
     assert.equal(unc('/foo'), false);
